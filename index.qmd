@@ -21,7 +21,9 @@ When you click the **Render** button a document will be generated that includes 
 ```{r, echo = FALSE, include = F}
 install.packages("tidyverse")
 install.packages("scam", dependencies = TRUE)
-# install.packages("Matrix", dependencies = TRUE)
+# Install the Matrix package from the Posit Package Manager
+install.packages("https://packagemanager.posit.co/cran/latest/src/contrib/4.5.0/Recommended/Matrix_1.7-1.tar.gz", repos = NULL, type = "source")
+install.packages("fitplc", dependencies = FALSE)
 install.packages("fitplc", dependencies = FALSE)
 install.packages("readxl", dependencies = TRUE)
 ```
