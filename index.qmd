@@ -20,10 +20,10 @@ When you click the **Render** button a document will be generated that includes 
 
 ```{r, echo = FALSE, include = F}
 install.packages("tidyverse")
-install.packages("scam")
-install.packages("Matrix")
-install.packages("fitplc")
-install.packages("readxl")
+install.packages("scam", dependencies = TRUE)
+install.packages("Matrix", dependencies = TRUE))
+install.packages("fitplc", dependencies = TRUE)
+install.packages("readxl", dependencies = TRUE)
 ```
 
 ```{r, echo = FALSE, include = F}
