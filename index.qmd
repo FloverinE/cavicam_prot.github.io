@@ -26,8 +26,7 @@ install.packages("fitplc")
 install.packages("readxl")
 ```
 
-```{r}
-
+```{r, echo = FALSE, include = F}
 library(tidyverse)
 library(readxl)
 library(scam)
