@@ -20,6 +20,7 @@ When you click the **Render** button a document will be generated that includes 
 
 ```{r, echo = FALSE, include = F}
 install.packages("tidyverse")
+install.packages("scam")
 
 library(tidyverse)
 library(readxl)
