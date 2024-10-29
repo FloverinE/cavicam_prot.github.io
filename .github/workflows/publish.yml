@@ -27,6 +27,10 @@ jobs:
         with:
           extra-packages: tidyverse, scam, fitplc, readxl
           cache-version: 1
+          
+      - name: Install R packages
+        run: |
+          R -e 'install.packages(c("tidyverse", "scam", "fitplc", "readxl"))'
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
