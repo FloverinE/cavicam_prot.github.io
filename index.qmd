@@ -10,23 +10,21 @@ webr:
 
 ## Guide to optical vulnerability analysis
 
-asdasd
+
 
 ## Exemplary analysis of a single vulnerability curve
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
 ### Load libraries
 
 ```{r, echo = FALSE, include = F}
-install.packages("tidyverse")
-install.packages("scam", dependencies = TRUE)
-# Install the Matrix package from the Posit Package Manager
-install.packages("https://packagemanager.posit.co/cran/latest/src/contrib/Archive/car/car_3.1-2.tar.gz", repos = NULL, type = "source")
-install.packages("https://packagemanager.posit.co/cran/latest/src/contrib/Archive/Matrix/Matrix_1.5-1.tar.gz", repos = NULL, type = "source")
-install.packages("https://packagemanager.posit.co/cran/latest/src/contrib/fitplc_1.2-3.tar.gz", repos = NULL, type = "source")
-install.packages("fitplc", dependencies = FALSE)
-install.packages("readxl", dependencies = TRUE)
+# install.packages("tidyverse")
+# install.packages("scam", dependencies = TRUE)
+# # Install the Matrix package from the Posit Package Manager
+# install.packages("https://packagemanager.posit.co/cran/latest/src/contrib/Archive/car/car_3.1-2.tar.gz", repos = NULL, type = "source")
+# install.packages("https://packagemanager.posit.co/cran/latest/src/contrib/Archive/Matrix/Matrix_1.5-1.tar.gz", repos = NULL, type = "source")
+# install.packages("https://packagemanager.posit.co/cran/latest/src/contrib/fitplc_1.2-3.tar.gz", repos = NULL, type = "source")
+# install.packages("fitplc", dependencies = FALSE)
+# install.packages("readxl", dependencies = TRUE)
 ```
 
 ```{r, echo = FALSE, include = F}
