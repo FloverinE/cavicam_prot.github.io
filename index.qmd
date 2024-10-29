@@ -19,7 +19,10 @@ When you click the **Render** button a document will be generated that includes 
 ### Load libraries
 
 ```{r, echo = FALSE, include = F}
-install.packages(c("tidyverse", "scam", "fitplc", "readxl"))
+install.packages("tidyverse")
+install.packages("scam")
+install.packages("fitplc")
+install.packages("readxl")
 
 library(tidyverse)
 library(readxl)
