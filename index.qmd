@@ -1,5 +1,11 @@
 ---
 title: "cavicam_prot.github.io"
+webr: 
+  packages:
+    - fitplc
+    - scam
+    - tidyverse
+    - readxl
 ---
 
 ## Guide to optical vulnerability analysis
