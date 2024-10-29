@@ -22,7 +22,7 @@ When you click the **Render** button a document will be generated that includes 
 install.packages("tidyverse")
 install.packages("scam")
 install.packages("Matrix")
-renv::install("fitplc")
+install.packages("fitplc")
 install.packages("readxl")
 ```
 
