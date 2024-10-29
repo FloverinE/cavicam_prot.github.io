@@ -6,7 +6,7 @@ on:
 name: Quarto Publish
 
 jobs:
-  build-deploy:
+  build-deploy: 
     runs-on: ubuntu-latest
     permissions:
       contents: write
