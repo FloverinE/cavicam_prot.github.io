@@ -13,6 +13,8 @@ When you click the **Render** button a document will be generated that includes 
 ### Load libraries
 
 ```{r, echo = FALSE, include = F}
+install.packages("tidyverse")
+
 library(tidyverse)
 library(readxl)
 library(scam)
