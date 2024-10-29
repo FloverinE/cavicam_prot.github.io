@@ -22,7 +22,7 @@ When you click the **Render** button a document will be generated that includes 
 install.packages("tidyverse")
 install.packages("scam", dependencies = TRUE)
 # install.packages("Matrix", dependencies = TRUE)
-install.packages("fitplc", dependencies = FALSE)
+# install.packages("fitplc", dependencies = FALSE)
 install.packages("readxl", dependencies = TRUE)
 ```
 
