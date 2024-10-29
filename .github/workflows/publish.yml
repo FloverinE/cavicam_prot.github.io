@@ -20,17 +20,20 @@ jobs:
       - name: Install R
         uses: r-lib/actions/setup-r@v2
         with:
-          r-version: '4.3.1'
+          r-version: '4.2.0'
 
       - name: Install R Dependencies
         uses: r-lib/actions/setup-renv@v2
         with:
-          extra-packages: tidyverse, scam, fitplc, readxl
+          packages: any::tidyverse
+                    any::scam
+                    any::fitplc
+                    any::readxl
           cache-version: 1
           
-      - name: Install R packages
-        run: |
-          R -e 'install.packages(c("tidyverse", "scam", "fitplc", "readxl"))'
+      # - name: Install R packages
+      #   run: |
+      #     R -e 'install.packages(c("tidyverse", "scam", "fitplc", "readxl"))'
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
